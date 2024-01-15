@@ -1,4 +1,5 @@
 # Customer-Churn-Analysis
+![](Intro-Image.png)
 # Table of Contents
 - [Introduction](#introduction)
 - [Business Task](#business-task)
