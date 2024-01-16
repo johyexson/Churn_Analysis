@@ -9,6 +9,7 @@
 - [Graphs](#graphs)
 - [Summary of Findings](#summary-of-findings)
 - [Recommendations](#Recommendations)
+- [Limitations](#limitations)
 - [Code](#code)
 - [Dashboard](#dashboard)
 # Introduction 
