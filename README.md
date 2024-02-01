@@ -15,7 +15,7 @@
 # Introduction 
 Customers remain indispensable in any part of an organisation being that the loss of a customer can have diverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
 # Data Source
-The data was gotten from Maven Analytics Data Playground which is a website for downloading datasets that can be used to carry out data analysis. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
+The data was gotten from Maven Analytics Data Playground which is a website where data is made available for download in order to practice using real world datasets to carry out data analysis. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
 - Excel
 - Sql(PostgreSQL)
