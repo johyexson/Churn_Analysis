@@ -23,4 +23,5 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Sql(PostgreSQL)
 - Tableau
 # Methods
+- Cleaned a d transformed data in order to extract insights
 
