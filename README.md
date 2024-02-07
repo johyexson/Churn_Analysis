@@ -13,7 +13,7 @@
 - [Code](#code)
 - [Dashboard](#dashboard)
 # Introduction 
-Customers remain indispensable in any part of an organisation being that the loss of a customer can have diverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
+Customers remain indispensable in any part of an organisation being that the loss of a customer can have adverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
 # Business Task
 Find out the reason for customer churn and how it can be mitigated
 # Data Source
