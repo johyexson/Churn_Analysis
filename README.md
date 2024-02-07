@@ -24,4 +24,5 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Tableau
 # Methods
 - Cleaned and transformed data in order to extract insights
-- Modelled the data in order to identify pattern and trends 
+- Modelled the data in order to identify pattern and trends
+- Executed queries in order to further gain insights into how the business problem can be solved
