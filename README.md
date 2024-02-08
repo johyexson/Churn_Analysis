@@ -26,4 +26,4 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Cleaned and transformed data in order to extract insights
 - Modelled the data in order to identify pattern and trends
 - Executed queries in order to further gain insights into how the business problem can be solved
-- Developed a dashboard for visualization using PowerBI desktop 
+- Developed a dashboard for visualising the results using PowerBI desktop 
