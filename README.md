@@ -23,7 +23,7 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Sql(PostgreSQL)
 - Tableau
 # Methods
-- Cleaned and transformed data in order to extract insights
+- Cleaned and transformed data in Excel
 - Modelled the data in order to identify pattern and trends
-- Executed queries in order to further gain insights into how the business problem can be solved
+- Executed queries in order to extract insights from the data 
 - Developed a dashboard for visualising the results using PowerBI desktop 
