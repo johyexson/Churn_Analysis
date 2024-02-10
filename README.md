@@ -17,6 +17,7 @@ Customers remain indispensable in any part of an organisation being that the los
 # Business Tasks
 1. How many customers joined the company during the last quarter?
 2. What is the customer profile for a customer that churned, joined and stayed? Are they different?
+3. What seem to be the key drivers of customer churn?
 # Data Source
 The data was gotten from Maven Analytics Data Playground which is a website where datasets are made available for download in order to practice using real world data for carrying out analysis. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
