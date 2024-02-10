@@ -14,7 +14,7 @@
 - [Dashboard](#dashboard)
 # Introduction 
 Customers remain indispensable in any part of an organisation being that the loss of a customer can have adverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
-For this project however, an analysis will be conducted on churn data for a fictional Telecommunications company that provides phone and internet services
+For this project however, an analysis will be conducted on churn data for a fictional Telecommunications company that provides phone and internet services to 7,043 customers in California.
 # Business Tasks
 1. How many customers joined the company during the last quarter?
 2. What is the customer profile for a customer that churned, joined and stayed? Are they different?
