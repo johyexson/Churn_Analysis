@@ -14,8 +14,8 @@
 - [Dashboard](#dashboard)
 # Introduction 
 Customers remain indispensable in any part of an organisation being that the loss of a customer can have adverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
-# Business Task
-Find out the reason for customer churn and how it can be mitigated
+# Business Tasks
+1. How many customers joined the company during the last quarter?
 # Data Source
 The data was gotten from Maven Analytics Data Playground which is a website where datasets are made available for download in order to practice using real world data for carrying out analysis. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
