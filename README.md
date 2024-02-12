@@ -21,7 +21,7 @@ For this project however, an analysis will be conducted on churn data for a fict
 3. What seem to be the key drivers of customer churn?
 4. Is the company losing high value customers? If so, how can they retain them?
 # Data Source
-The data was gotten from Maven Analytics Data Playground which is a website where datasets are made available for download in order to practice using real world data for carrying out analysis. The churn data includes details about customer demographics, location, services and current status. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
+The data was gotten from Maven Analytics Data Playground which is a website where datasets are made available for download in order to practice using real world data for carrying out analysis. The churn data includes details about customer demographics, location, services and current status. It consists of multiple tables, 7043 records and 34 fields. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
 - Excel
 - Sql(PostgreSQL)
