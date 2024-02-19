@@ -29,6 +29,8 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 # Methods
 - Loaded the CSV file in Excel for wrangling
 - Checked for duplicates, renamed the columns and and ensured consistent formatting
-- Modelled the data in order to identify pattern and trends
-- Executed queries in order to extract insights from the data 
+- Imputed the data in order to eliminate null values
+- Imported the data into MySQL in order for analysis
+- Executed queries to extract insights from the data
+- Used clauses and functions to answer questions related to the business task
 - Developed a dashboard for visualising the results using PowerBI desktop
