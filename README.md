@@ -27,7 +27,8 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Sql(PostgreSQL)
 - Tableau
 # Methods
-- Cleaned and transformed data in Excel
+- Loaded the CSV file in Excel for wrangling
+- Checked for duplicates, renamed the columns and and ensured consistent formatting
 - Modelled the data in order to identify pattern and trends
 - Executed queries in order to extract insights from the data 
 - Developed a dashboard for visualising the results using PowerBI desktop
