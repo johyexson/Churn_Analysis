@@ -24,8 +24,8 @@ For this project however, an analysis will be conducted on churn data for a fict
 The data was gotten from Maven Analytics Data Playground which is a website where datasets are made available for download in order to practice using real world data for carrying out analysis. The churn data includes details about customer demographics, location, services and current status. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
 - Excel
-- Sql(PostgreSQL)
-- Tableau
+- Sql(MySQL)
+- PowerBI
 # Methods
 - Loaded the CSV file in Excel for wrangling
 - Checked for duplicates, renamed the columns and and ensured consistent formatting
@@ -33,4 +33,5 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Imported the data into MySQL in order for analysis
 - Executed queries to extract insights from the data
 - Used clauses and functions to answer questions related to the business task
-- Developed a dashboard for visualising the results using PowerBI desktop
+- Exported the data into Power BI for visualization and further analysis
+- Developed a dashboard for visualising the results using Power BI desktop
