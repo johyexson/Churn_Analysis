@@ -27,7 +27,7 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - SQL(MySQL)
 - Power BI
 # Methods
-- Loaded the CSV file in Excel for wrangling
+- Loaded the CSV file in Excel for data wrangling
 - Checked for duplicates, renamed the columns and and ensured consistent formatting
 - Imputed the data in order to eliminate null values
 - Imported the data into MySQL in order for analysis
