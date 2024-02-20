@@ -32,6 +32,6 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Imputed the data in order to eliminate null values
 - Imported the data into MySQL to conduct analysis
 - Executed queries to extract insights from the data
-- Used clauses and functions to answer questions related to the business task
+- Used clauses and functions(such as ALTER TABLE, UPDATE, CASE,etc.) to answer questions related to the business task
 - Exported the data into Power BI for visualization and further analysis
 - Developed a dashboard for visualising the results using Power BI desktop
