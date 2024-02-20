@@ -30,7 +30,7 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Loaded the CSV file in Excel for data wrangling
 - Checked for duplicates, renamed the columns and and ensured consistent formatting
 - Imputed the data in order to eliminate null values
-- Imported the data into MySQL in order for analysis
+- Imported the data into MySQL to conduct analysis
 - Executed queries to extract insights from the data
 - Used clauses and functions to answer questions related to the business task
 - Exported the data into Power BI for visualization and further analysis
