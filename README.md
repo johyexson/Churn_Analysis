@@ -36,6 +36,8 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Exported the data into Power BI for visualization and further analysis
 - Developed a dashboard for visualising the results using Power BI desktop
 # Codes 
+Here is a glimpse of the queries constructed to answer questions for the analysis:
+
 ```sql
 -- What is the typical tenure for churned customers? --
 SELECT Tenure_Range,
@@ -55,18 +57,8 @@ FROM customer_churn.telecom_customer_churn) AS Total,
 	(SELECT COUNT(*) AS Churned_Customers
 FROM customer_churn.telecom_customer_churn
 		WHERE Customer_Status = 'Churned') AS Churned;
-
--- Adding new columns to the table in order to calculate churn rates of customers based on various categories --
-ALTER TABLE customer_churn.telecom_customer_churn
-ADD Churned VARCHAR (10);
-
-UPDATE customer_churn.telecom_customer_churn
-SET Churned =
-CASE 
-	WHEN Customer_Status = 'Churned' THEN 'Yes'
-    ELSE 'No'
-    END;
 ```
+The full code can be viewed [here](Customer_churn_analysis.sql)
 # Graphs
 The following questions were answered and the results are visualized below:
  1. What is the typical tenure for churned customers?
