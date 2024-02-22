@@ -6,11 +6,11 @@
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [Methods](#methods)
+- [Codes](#codes)
 - [Graphs](#graphs)
 - [Summary of Findings](#summary-of-findings)
 - [Recommendations](#Recommendations)
 - [Limitations](#limitations)
-- [Code](#code)
 - [Dashboard](#dashboard)
 # Introduction 
 Customers remain indispensable in any part of an organisation being that the loss of a customer can have adverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
@@ -39,15 +39,6 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 Here is a glimpse of the queries constructed to answer questions for the analysis:
 
 ```sql
--- What is the typical tenure for churned customers? --
-SELECT Tenure_Range,
-	COUNT(*) AS Total_Customers,
-    SUM(Churn) AS Churned_Customers,
-    CAST(SUM(Churn) * 1.0/ COUNT(*) * 100 AS DECIMAL (10,2)) AS Churn_Rate
-FROM customer_churn.telecom_customer_churn
-GROUP BY Tenure_Range
-ORDER BY Churn_Rate DESC;
-
 -- What is the overall churn rate of customers --
 SELECT Total_Customers, Churned_Customers,
 CAST((Churned_Customers * 0.1 /Total_Customers * 0.1 * 100) AS DECIMAL (10,2)) AS Churn_Rate
@@ -57,8 +48,31 @@ FROM customer_churn.telecom_customer_churn) AS Total,
 	(SELECT COUNT(*) AS Churned_Customers
 FROM customer_churn.telecom_customer_churn
 		WHERE Customer_Status = 'Churned') AS Churned;
+-- Adding an extra column to calculate tenure of customers in years --
+ALTER TABLE customer_churn.telecom_customer_churn
+ADD Tenure_Range VARCHAR (50);
+
+UPDATE customer_churn.telecom_customer_churn
+SET Tenure_Range =
+CASE 
+	WHEN Tenure < 12 THEN "Less than a year"
+    WHEN Tenure = 12 THEN "1 year"
+    WHEN Tenure > 12 AND Tenure <= 24 THEN "2 years"
+    WHEN Tenure > 24 AND Tenure <= 36 THEN "3 years"
+    WHEN Tenure > 36 AND Tenure <= 48 THEN "4 years"
+    WHEN Tenure > 48 AND Tenure <= 60 THEN "5 years"
+    WHEN Tenure > 60 AND Tenure <= 72 THEN "6 years"
+END;
+-- What is the typical tenure for churned customers? --
+SELECT Tenure_Range,
+	COUNT(*) AS Total_Customers,
+    SUM(Churn) AS Churned_Customers,
+    CAST(SUM(Churn) * 1.0/ COUNT(*) * 100 AS DECIMAL (10,2)) AS Churn_Rate
+FROM customer_churn.telecom_customer_churn
+GROUP BY Tenure_Range
+ORDER BY Churn_Rate DESC;
 ```
-The full code can be viewed [here](Customer_churn_analysis.sql)
+The full code can be viewed [here](Customer_Churn_Analysis.sql)
 # Graphs
 The following questions were answered and the results are visualized below:
  1. What is the typical tenure for churned customers?
