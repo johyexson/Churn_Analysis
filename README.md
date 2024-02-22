@@ -25,7 +25,7 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 # Tools
 - Excel
 - SQL(MySQL)
-- Power BI
+- [Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 # Methods
 - Loaded the CSV file in Excel for data wrangling
 - Checked for duplicates, renamed the columns and and ensured consistent formatting
