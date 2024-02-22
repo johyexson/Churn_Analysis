@@ -35,6 +35,16 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Used clauses and functions(such as ALTER TABLE, UPDATE, CASE,etc.) to answer questions related to the business task
 - Exported the data into Power BI for visualization and further analysis
 - Developed a dashboard for visualising the results using Power BI desktop
+# Codes 
+```sql
+SELECT Tenure_Range,
+	COUNT(*) AS Total_Customers,
+    SUM(Churn) AS Churned_Customers,
+    CAST(SUM(Churn) * 1.0/ COUNT(*) * 100 AS DECIMAL (10,2)) AS Churn_Rate
+FROM customer_churn.telecom_customer_churn
+GROUP BY Tenure_Range
+ORDER BY Churn_Rate DESC;
+```
 # Graphs
 The following questions were answered and the results are visualized below:
  1. What is the typical tenure for churned customers?
