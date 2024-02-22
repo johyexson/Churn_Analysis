@@ -35,3 +35,4 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Used clauses and functions(such as ALTER TABLE, UPDATE, CASE,etc.) to answer questions related to the business task
 - Exported the data into Power BI for visualization and further analysis
 - Developed a dashboard for visualising the results using Power BI desktop
+# Graphs
