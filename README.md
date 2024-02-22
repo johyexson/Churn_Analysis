@@ -36,3 +36,11 @@ The data was gotten from Maven Analytics Data Playground which is a website wher
 - Exported the data into Power BI for visualization and further analysis
 - Developed a dashboard for visualising the results using Power BI desktop
 # Graphs
+The following questions were answered and the results are visualized below:
+
+![](Insight_1.png)
+
+![](Insight_2.png)
+
+![](Insight_3.png)
+
