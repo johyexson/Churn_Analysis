@@ -89,7 +89,7 @@ The following questions were answered and the results are visualized below:
 ![](Insight_3.png)
 
 # Summary of Findings
-- The overall churn rate of customers is 26.54% showing that the company has lost a significant portion of its customers
+- The overall churn rate of customers is 26.54% with the total number of churned customers being 1869 showing that the company has lost a significant portion of its customers
 - The difference between male and female customer churn is quite minimal which signifies that it might not necessarily be a factor driving churn
 - Longer tenures are associated with lower churn rates as customers that have been with the company for less than a year have the highest churn rate
 - The most preferred payment method by churned customers is bank withdrawal indicating that there could be issues regarding service dissatisfaction
@@ -102,6 +102,6 @@ The following questions were answered and the results are visualized below:
 - Develop campaign strategies that will attract more single customers to use the service
 - Improve customer satisfaction, provide efficient services as well as incentives and ensure proper customer support to reduce the rate at which customers switch to other competitiors
 # Dashboard
-Ypu can explore the dashboard I created in Power BI [here](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+You can explore the dashboard I created in Power BI [here](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 
