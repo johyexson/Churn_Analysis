@@ -90,7 +90,7 @@ The following questions were answered and the results are visualized below:
 
 # Summary of Findings
 - The overall churn rate of customers is 26.54% showing that the company has lost a significant portion of its customers
-- The difference between male and female customer churn is quite minimal which signifies that it might not necessarily a factor driving churn
+- The difference between male and female customer churn is quite minimal which signifies that it might not necessarily be a factor driving churn
 - Longer tenures are associated with lower churn rates as customers that have been with the company for less than a year have the highest churn rate
 - The most preferred payment method by churned customers is bank withdrawal indicating that there could be issues regarding service dissatisfaction
 - Customers with monthly contracts have higher churn rates as there is little or no incentive to go into a one year or two year contract
@@ -100,6 +100,8 @@ The following questions were answered and the results are visualized below:
 - Since most of the churned customers only spent a few months with the company, customer loyalty should be built earlier on to mitigate customer attrition
 - To reduce churn, incentivise customers to switch to one year or two year contracts. Also, since there isn't much difference between the average monthly charges of all contract types, raising the average monthly charges for month to month contracts will enhance the switch and this will have a huge impact on the revenue
 - Develop campaign strategies that will attract more single customers to use the service
-- Improve customers satisfaction, provide efficient services and ensure proper customer support to reduce the rate at which customers switch to other competitiors
+- Improve customer satisfaction, provide efficient services as well as incentives and ensure proper customer support to reduce the rate at which customers switch to other competitiors
+# Dashboard
+Ypu can explore the dashboard I created in Power BI [here](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 
