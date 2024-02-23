@@ -10,7 +10,6 @@
 - [Graphs](#graphs)
 - [Summary of Findings](#summary-of-findings)
 - [Recommendations](#Recommendations)
-- [Limitations](#limitations)
 - [Dashboard](#dashboard)
 # Introduction 
 Customers remain indispensable in any part of an organisation being that the loss of a customer can have adverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
@@ -48,6 +47,7 @@ FROM customer_churn.telecom_customer_churn) AS Total,
 	(SELECT COUNT(*) AS Churned_Customers
 FROM customer_churn.telecom_customer_churn
 		WHERE Customer_Status = 'Churned') AS Churned;
+
 -- Adding an extra column to calculate tenure of customers in years --
 ALTER TABLE customer_churn.telecom_customer_churn
 ADD Tenure_Range VARCHAR (50);
@@ -63,6 +63,7 @@ CASE
     WHEN Tenure > 48 AND Tenure <= 60 THEN "5 years"
     WHEN Tenure > 60 AND Tenure <= 72 THEN "6 years"
 END;
+
 -- What is the typical tenure for churned customers? --
 SELECT Tenure_Range,
 	COUNT(*) AS Total_Customers,
@@ -86,4 +87,19 @@ The following questions were answered and the results are visualized below:
  3. Is the company losing high value customers?
 
 ![](Insight_3.png)
+
+# Summary of Findings
+- The overall churn rate of customers is 26.54% showing that the company has lost a significant portion of its customers
+- The difference between male and female customer churn is quite minimal which signifies that it might not necessarily a factor driving churn
+- Longer tenures are associated with lower churn rates as customers that have been with the company for less than a year have the highest churn rate
+- The most preferred payment method by churned customers is bank withdrawal indicating that there could be issues regarding service dissatisfaction
+- Customers with monthly contracts have higher churn rates as there is little or no incentive to go into a one year or two year contract
+- Single customers have higher churn rates than the married customers as well as customers with no dependents compared to customers with dependents
+- The key drivers of churn identified by the customers as reasons for churning were predominantly competitors and attitude of support persons leading to service dissatisfaction
+# Recommendations
+- Since most of the churned customers only spent a few months with the company, customer loyalty should be built earlier on to mitigate customer attrition
+- To reduce churn, incentivise customers to switch to one year or two year contracts. Also, since there isn't much difference between the average monthly charges of all contract types, raising the average monthly charges for month to month contracts will enhance the switch and this will have a huge impact on the revenue
+- Develop campaign strategies that will attract more single customers to use the service
+- Improve customers satisfaction, provide efficient services and ensure proper customer support to reduce the rate at which customers switch to other competitiors
+
 
