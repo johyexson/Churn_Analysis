@@ -16,7 +16,7 @@ Customers remain indispensable in any part of an organisation being that the los
 For this project however, an analysis was conducted on churn data for a fictional Telecommunications Company that provides phone and internet services to 7,043 customers in California.
 # Business Tasks
 1. How many customers joined the company during the last quarter?
-2. What is the customer profile for a customer that churned, joined and stayed? Are they different?
+2. What is the overall churn rate of customers?
 3. What seem to be the key drivers of customer churn?
 4. Is the company losing high value customers? If so, how can they retain them?
 # Data Source
