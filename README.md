@@ -2,10 +2,11 @@
 ![](Intro-Image.png)
 # Table of Contents
 - [Introduction](#introduction)
+- [Data Overview](#data-overview)
+- [Hypothesis](#hypothesis)
 - [Business Task](#business-task)
-- [Data Source](#data-source)
 - [Tools](#tools)
-- [Methods](#methods)
+- [Approach and Methods](#approach-and-methods)
 - [Codes](#codes)
 - [Graphs](#graphs)
 - [Summary of Findings](#summary-of-findings)
@@ -13,19 +14,21 @@
 - [Dashboard](#dashboard)
 # Introduction 
 Customers remain indispensable in any part of an organisation being that the loss of a customer can have adverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
-For this project however, an analysis was conducted on churn data for a fictional Telecommunications Company that provides phone and internet services to 7,043 customers in California.
+For this project however, I conducted an analysis on churn data for a fictional Telecommunications Company that provides phone and internet services to 7,043 customers in California. 
+# Data Overview 
+The data was gotten from Maven Analytics Data Playground. The churn data includes details about customer demographics, location, services and current status. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
+# Hypothesis
+
 # Business Tasks
 1. How many customers joined the company during the last quarter?
 2. What is the overall churn rate of customers?
 3. What seem to be the key drivers of customer churn?
 4. Is the company losing high value customers? If so, how can they retain them?
-# Data Source
-The data was gotten from Maven Analytics Data Playground. The churn data includes details about customer demographics, location, services and current status. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
 - Excel
 - SQL(MySQL)
 - [Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
-# Methods
+# Approach and Methods
 - Loaded the CSV file in Excel for data wrangling
 - Checked for duplicates, renamed the columns and and ensured consistent formatting
 - Imputed the data in order to eliminate null values
