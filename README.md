@@ -13,12 +13,13 @@
 - [Recommendations](#Recommendations)
 - [Dashboard](#dashboard)
 # Introduction 
-Customers remain indispensable in any part of an organisation being that the loss of a customer can have adverse effect on the growth of the company. Hence, most organisations evaluate their customer churn rates in order to make predictions and devise strategies to prevent fall outs.
-For this project however, I conducted an analysis on churn data for a fictional Telecommunications Company that provides phone and internet services to 7,043 customers in California. 
+A company is experiencing churn and losing customers due to churn is on the lookout for ways to prevent break outs and mitigate churn.
 # Data Overview 
-The data was gotten from Maven Analytics Data Playground. The churn data includes details about customer demographics, location, services and current status. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
+The dataset comprises churn data for a fictional telecommunications company that provides phone and internet services to 7,043 customers in California. It include details about customer demographics, location, services, current status, etc. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Hypothesis
-
+My assumptions about the business problem are as follows:
+- The company could be experiencing churn due to lack of proper customer services and inability to satisfy customer needs.
+- The customers could have found better service providers that were more suitable for their needs.
 # Business Tasks
 1. How many customers joined the company during the last quarter?
 2. What is the overall churn rate of customers?
