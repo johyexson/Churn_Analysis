@@ -6,7 +6,7 @@
 - [Hypothesis](#hypothesis)
 - [Business Task](#business-task)
 - [Tools for Analysis](#tools-for-analysis)
-- [Approach and Analysis Methods](#approach-and-analysis-methods)
+- [Method of Analysis](#method-of-analysis)
 - [Codes](#codes)
 - [Graphs](#graphs)
 - [Summary of Findings](#summary-of-findings)
@@ -29,16 +29,14 @@ It is however important to note that, even a seemingly small, single-figure incr
 - Excel
 - SQL(MySQL)
 - [Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
-# Approach and Analysis Methods
-The approach utilized was exploratory data analysis
-- Loaded the CSV file in Excel for data wrangling
-- Checked for duplicates, renamed the columns and and ensured consistent formatting
-- Imputed the data in order to eliminate null values
-- Imported the data into MySQL to conduct analysis
-- Executed queries to extract insights from the data
-- Used clauses and functions(such as CTEs, UPDATE, CASE statements) to answer questions related to the business task
-- Exported the data into Power BI for visualization and further analysis
-- Developed a dashboard for visualising the results using Power BI desktop
+# Method of Analysis
+The method I utilized was exploratory data analysis (EDA). This includes the following steps:
+- **Data Cleaning**
+This involved removing duplicates, inputting null values, formatting data types to ensure consistenty, eliminating errors in Excel.
+- **Data Transformation**
+This involved executing queries in MySQL to extract insights from the data, utilised clauses and functions(such as CTEs, UPDATE, CASE statements) to answer questions related to the business task.
+- **Data Visualization**
+This involved importing the data into Power BI for visualization and developing a dashboard using charts and graphs to present the results/findings of the analysis.
 # Codes 
 Here is a glimpse of the queries constructed to answer questions for the analysis:
 
