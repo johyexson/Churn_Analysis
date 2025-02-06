@@ -17,8 +17,8 @@ A fictional telecommunications company that provides phone and internet services
 # Data Overview 
 The dataset include details about customer demographics, location, services, current status, etc. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Hypothesis
-If the telecommunications company is not properly attuned to the changing needs and support requirements of its customers, it is susceptible to churn.
-It is also important to note that, even a seemingly small, single-figure increases in churn rate can quickly have a major negative effect on any company’s ability to grow as these churn rates are more likely to compound over time.
+If the telecommunications company is not properly attuned to the changing needs and support requirements of its customers, it is susceptible to churn. 
+It is however important to note that, even a seemingly small, single-figure increases in churn rate can quickly have a major negative effect on any company’s ability to grow as these churn rates are more likely to compound over time.
 
 # Business Tasks
 1. How many customers joined the company during the last quarter?
@@ -30,6 +30,7 @@ It is also important to note that, even a seemingly small, single-figure increas
 - SQL(MySQL)
 - [Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 # Approach and Analysis Methods
+The approach utilized was exploratory data analysis
 - Loaded the CSV file in Excel for data wrangling
 - Checked for duplicates, renamed the columns and and ensured consistent formatting
 - Imputed the data in order to eliminate null values
@@ -105,7 +106,7 @@ The following questions were answered and the results are visualized below:
 - Since most of the churned customers only spent a few months with the company, customer loyalty should be built earlier on to mitigate customer attrition
 - To reduce churn, incentivise customers to switch to one year or two year contracts. Also, since there isn't much difference between the average monthly charges of all contract types, raising the average monthly charges for month to month contracts will enhance the switch and this will have a huge impact on the revenue
 - Develop campaign strategies that will attract more single customers to use the service
-- Improve customer satisfaction, provide efficient services as well as incentives and ensure proper customer support to reduce the rate at which customers switch to other competitiors
+- It is more cost-efficient to retain existing customers than acquiring new ones. Improve customer satisfaction, provide efficient services as well as incentives and ensure proper customer support to reduce the rate at which customers switch to other competitiors
 # Dashboard
 You can explore the dashboard I created in Power BI [here](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
