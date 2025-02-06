@@ -1,4 +1,4 @@
-# Customer-Churn-Analysis
+# Churn-Prediction-Analysis
 ![](Intro-Image.png)
 # Table of Contents
 - [Case Study](#case-study)
@@ -17,6 +17,7 @@ A company is experiencing churn and losing customers due to churn is on the look
 # Data Overview 
 The dataset comprises churn data for a fictional telecommunications company that provides phone and internet services to 7,043 customers in California. It include details about customer demographics, location, services, current status, etc. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Hypothesis
+I hypothesized that if the telecommunication company lacks proper customer service, their customers are bound to switch to another company with better service
 My assumptions about the business problem are as follows:
 - The company could be experiencing churn due to lack of proper customer services and inability to satisfy customer needs.
 - The customers could have found better service providers that were more suitable for their needs.
