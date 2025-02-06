@@ -1,18 +1,18 @@
 # Customer-Churn-Analysis
 ![](Intro-Image.png)
 # Table of Contents
-- [Introduction](#introduction)
+- [Case Study](#case-study)
 - [Data Overview](#data-overview)
 - [Hypothesis](#hypothesis)
 - [Business Task](#business-task)
-- [Tools](#tools)
-- [Approach and Methods](#approach-and-methods)
+- [Tools for Analysis](#tools-for-analysis)
+- [Approach and Analysis Methods](#approach-and-analysis-methods)
 - [Codes](#codes)
 - [Graphs](#graphs)
 - [Summary of Findings](#summary-of-findings)
 - [Recommendations](#Recommendations)
 - [Dashboard](#dashboard)
-# Introduction 
+# Case Study
 A company is experiencing churn and losing customers due to churn is on the lookout for ways to prevent break outs and mitigate churn.
 # Data Overview 
 The dataset comprises churn data for a fictional telecommunications company that provides phone and internet services to 7,043 customers in California. It include details about customer demographics, location, services, current status, etc. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
@@ -25,11 +25,11 @@ My assumptions about the business problem are as follows:
 2. What is the overall churn rate of customers?
 3. What seem to be the key drivers of customer churn?
 4. Is the company losing high value customers? If so, how can they retain them?
-# Tools
+# Tools for Analysis 
 - Excel
 - SQL(MySQL)
 - [Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
-# Approach and Methods
+# Approach and Analysis Methods
 - Loaded the CSV file in Excel for data wrangling
 - Checked for duplicates, renamed the columns and and ensured consistent formatting
 - Imputed the data in order to eliminate null values
