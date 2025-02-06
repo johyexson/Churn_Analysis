@@ -13,11 +13,12 @@
 - [Recommendations](#Recommendations)
 - [Dashboard](#dashboard)
 # Case Study
-A company is experiencing churn and losing customers due to churn is on the lookout for ways to prevent break outs and mitigate churn.
+A fictional telecommunications company that provides phone and internet services to 7,043 customers in California wants to evaluate their customer churn rates and is looking to devise strategies to retain customers as well as prevent fall outs.
+Even a seemingly small, single-figure increases in churn rate can quickly have a major negative effect on any company’s ability to grow as these churn rates are more likely to compound over time.
 # Data Overview 
-The dataset comprises churn data for a fictional telecommunications company that provides phone and internet services to 7,043 customers in California. It include details about customer demographics, location, services, current status, etc. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
+The dataset include details about customer demographics, location, services, current status, etc. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Hypothesis
-I hypothesized that if the telecommunication company lacks proper customer service, their customers are bound to switch to another company with better service
+If the telecommunications company is not properly attuned to the changing needs and support requirements of its customers, it is susceptible to churn.
 My assumptions about the business problem are as follows:
 - The company could be experiencing churn due to lack of proper customer services and inability to satisfy customer needs.
 - The customers could have found better service providers that were more suitable for their needs.
@@ -86,6 +87,7 @@ The following questions were answered and the results are visualized below:
 ![](Insight_1.png)
 
  2. What are the key drivers of customer churn?
+ you can only actively reduce your churn by focusing on the areas where you’re losing customers.
 
 ![](Insight_2.png)
 
