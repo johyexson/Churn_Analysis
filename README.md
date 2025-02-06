@@ -4,7 +4,6 @@
 - [Case Study](#case-study)
 - [Data Overview](#data-overview)
 - [Hypothesis](#hypothesis)
-- [Business Task](#business-task)
 - [Tools for Analysis](#tools-for-analysis)
 - [Method of Analysis](#method-of-analysis)
 - [Codes](#codes)
@@ -19,26 +18,20 @@ The dataset include details about customer demographics, location, services, cur
 # Hypothesis
 If the telecommunications company is not properly attuned to the changing needs and support requirements of its customers, it is susceptible to churn. 
 It is however important to note that, even a seemingly small, single-figure increases in churn rate can quickly have a major negative effect on any company’s ability to grow as these churn rates are more likely to compound over time.
-
-# Business Tasks
-1. How many customers joined the company during the last quarter?
-2. What is the overall churn rate of customers?
-3. What seem to be the key drivers of customer churn?
-4. Is the company losing high value customers? If so, how can they retain them?
 # Tools for Analysis 
 - Excel
-- SQL(MySQL)
+- [MySQL](Customer_Churn_Analysis.sql)
 - [Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 # Method of Analysis
-The method I utilized was exploratory data analysis (EDA). This includes the following steps:
+The method I utilized was exploratory data analysis (EDA) to detect patterns and trends in the data through statistical methods and visualizations. This process includes the following steps:
 - **Data Cleaning**
-This involved removing duplicates, inputting null values, formatting data types to ensure consistenty, eliminating errors in Excel.
+This involved removing duplicates, inputting null values, converting data types to appropriate format in order to ensure consistency, and eliminating errors in the data using Excel.
 - **Data Transformation**
-This involved executing queries in MySQL to extract insights from the data, utilised clauses and functions(such as CTEs, UPDATE, CASE statements) to answer questions related to the business task.
+This involved executing queries in MySQL to extract insights from the data, utilised clauses and functions(such as CTEs, UPDATE, CASE statements, etc.) to aggregate data based on the analysis needs.
 - **Data Visualization**
 This involved importing the data into Power BI for visualization and developing a dashboard using charts and graphs to present the results/findings of the analysis.
 # Codes 
-Here is a glimpse of the queries constructed to answer questions for the analysis:
+Here is a glimpse of the queries constructed in MySQL to analyze the data:
 
 ```sql
 -- What is the overall churn rate of customers --
