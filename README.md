@@ -1,4 +1,4 @@
-# Churn-Prediction-Analysis
+# Customer-Churn-Analysis
 ![](Intro-Image.png)
 # Table of Contents
 - [Case Study](#case-study)
@@ -14,14 +14,12 @@
 - [Dashboard](#dashboard)
 # Case Study
 A fictional telecommunications company that provides phone and internet services to 7,043 customers in California wants to evaluate their customer churn rates and is looking to devise strategies to retain customers as well as prevent fall outs.
-Even a seemingly small, single-figure increases in churn rate can quickly have a major negative effect on any company’s ability to grow as these churn rates are more likely to compound over time.
 # Data Overview 
 The dataset include details about customer demographics, location, services, current status, etc. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Hypothesis
 If the telecommunications company is not properly attuned to the changing needs and support requirements of its customers, it is susceptible to churn.
-My assumptions about the business problem are as follows:
-- The company could be experiencing churn due to lack of proper customer services and inability to satisfy customer needs.
-- The customers could have found better service providers that were more suitable for their needs.
+It is also important to note that, even a seemingly small, single-figure increases in churn rate can quickly have a major negative effect on any company’s ability to grow as these churn rates are more likely to compound over time.
+
 # Business Tasks
 1. How many customers joined the company during the last quarter?
 2. What is the overall churn rate of customers?
