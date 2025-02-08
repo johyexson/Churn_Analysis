@@ -69,6 +69,7 @@ GROUP BY Tenure_Range
 ORDER BY Churn_Rate DESC;
 ```
 The full code can be viewed [here](Customer_Churn_Analysis.sql)
+
 # Summary of Findings
 - The overall churn rate of customers was 26.54% with the total number of churned customers being 1869 out of 7043, showing that the company has lost a significant portion of its customers.
 
@@ -79,26 +80,17 @@ Trends based on the result of the analysis shows that longer tenures are associa
 
 ![](Insight_2.png)
 Based on the analysis, the most preferred payment method by churned customers was bank withdrawal indicating that there could be issues regarding service dissatisfaction which led to churn
-you can only actively reduce your churn by focusing on the areas where you’re losing customers.
 
-
-
- 3. Is the company losing high value customers?
-
+- Customers with monthly contracts have higher churn rates as there is little or no incentive to go into a one year or two year contract
 ![](Insight_3.png)
 
-
-- The difference between male and female customer churn is quite minimal which signifies that it might not necessarily be a factor driving churn
-- Longer tenures are associated with lower churn rates while customers that have been with the company for less than a year have the highest churn rate
-- 
-- Customers with monthly contracts have higher churn rates as there is little or no incentive to go into a one year or two year contract
-- Single customers have higher churn rates than the married customers as well as customers with no dependents compared to customers with dependents
-
 # Recommendations
-- Since most of the churned customers only spent a few months with the company, customer loyalty should be built earlier on to mitigate customer attrition
+What should the telecommunications company do after seeing this trends?
+
+- Since most of the churned customers only spent a few months with the company, customer loyalty should be built earlier on to mitigate customer attrition. The company can only actively reduce churn by focusing on the areas where they’re losing customers.
+- It is more cost-efficient to retain existing customers than acquiring new ones. Therefore, improve customer satisfaction, provide efficient services as well as incentives and ensure proper customer support to reduce the rate at which customers switch to other competitiors
 - To reduce churn, incentivise customers to switch to one year or two year contracts. Also, since there isn't much difference between the average monthly charges of all contract types, raising the average monthly charges for month to month contracts will enhance the switch and this will have a huge impact on the revenue
-- Develop campaign strategies that will attract more single customers to use the service
-- It is more cost-efficient to retain existing customers than acquiring new ones. Improve customer satisfaction, provide efficient services as well as incentives and ensure proper customer support to reduce the rate at which customers switch to other competitiors
+ 
 # Dashboard
 You can explore the dashboard I created in Power BI [here](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
