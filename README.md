@@ -1,4 +1,4 @@
-# Customer-Churn-Analysis
+# Churn-Analysis
 ![](Intro-Image.png)
 # Table of Contents
 - [Case Study](#case-study)
@@ -7,7 +7,6 @@
 - [Tools for Analysis](#tools-for-analysis)
 - [Method of Analysis](#method-of-analysis)
 - [Codes](#codes)
-- [Graphs](#graphs)
 - [Summary of Findings](#summary-of-findings)
 - [Recommendations](#Recommendations)
 - [Dashboard](#dashboard)
