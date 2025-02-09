@@ -72,14 +72,14 @@ The full code can be viewed [here](Customer_Churn_Analysis.sql)
 
 # Summary of Findings
 - The overall churn rate of customers was 26.54% with the total number of churned customers being 1869 out of 7043, showing that the company has lost a significant portion of its customers.
-
-![](Insight_1.png)
 Trends based on the result of the analysis shows that longer tenures are associated with lower churn rates while customers that have been with the company for less than a year have the highest churn rate
+![](Insight_1.png)
 
  - The key drivers of churn identified by the customers as reasons for churning were predominantly competitors and attitude of support persons leading to service dissatisfaction
-
 ![](Insight_2.png)
-Based on the analysis, the most preferred payment method by churned customers was bank withdrawal indicating that there could be issues regarding service dissatisfaction which led to churn
+
+- Based on the analysis, the most preferred payment method by churned customers was bank withdrawal indicating that there could be issues regarding service dissatisfaction which led to churn
+![](Insight_3.png)
 
 - Customers with monthly contracts have higher churn rates as there is little or no incentive to go into a one year or two year contract
 ![](Insight_3.png)
