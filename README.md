@@ -79,10 +79,10 @@ Trends based on the result of the analysis shows that longer tenures are associa
 ![](Insight_2.png)
 
 - Based on the analysis, the most preferred payment method by churned customers was bank withdrawal indicating that there could be issues regarding service dissatisfaction which led to churn
-![](Insight_4.png)
+![](Insight_3.png)
 
 - Customers with monthly contracts have higher churn rates as there is little or no incentive to go into a one year or two year contract
-![](Insight_3.png)
+![](Insight_4.png)
 
 # Recommendations
 What should the telecommunications company do after seeing this trends?
