@@ -23,11 +23,11 @@ It is also important to note that, even a seemingly small, single-figure increas
 - [Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGZjZWZjNzYtODhlMS00MzFiLWIxYTMtMjAyZjllMjc3ZmM4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 # Method of Analysis
 The method I utilized was exploratory data analysis (EDA) to detect patterns and trends in the data through statistical methods and visualizations. This process includes the following steps:
-- **Data Cleaning**
+- **Data Cleaning**:
 This involved removing duplicates, inputting null values, converting data types to appropriate format in order to ensure consistency, and eliminating errors in the data using Excel formulas such as VLOOKUP, XLOOKUP, IFS, etc.
-- **Data Transformation**
+- **Data Transformation**:
 This involved executing queries in MySQL to extract insights from the data, utilising clauses and functions(such as CTEs, UPDATE, GROUPBY, CASE statements, etc.) to aggregate data based on the analysis needs.
-- **Data Visualization**
+- **Data Visualization**:
 This involved importing the data into Power BI for visualization and developing a dashboard using charts and graphs to present the results/findings of the analysis.
 # Codes 
 Here is a glimpse of the queries constructed in MySQL to analyze the data:
